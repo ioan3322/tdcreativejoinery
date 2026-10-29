@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 function Header() {
-  return <header className="line" style={{ background: "#f5f2ec" }}><div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 78 }}>
+  return <header className="line site-header" style={{ background: "#f5f2ec" }}><div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 78 }}>
     <Link href="/" style={{ letterSpacing: ".08em", fontSize: 14, fontWeight: 600 }}>TD <span style={{ color: "#936c4d" }}>CREATIVE</span> JOINERY</Link>
     <nav className="desktop-only" style={{ display: "flex", gap: 28, fontSize: 12, letterSpacing: ".04em" }}><Link href="/">Acasă</Link><Link href="/portofoliu">Portofoliu</Link><Link href="/magazin">Magazin</Link><Link href="/despre-noi">Despre noi</Link></nav>
     <div style={{ display: "flex", gap: 16, alignItems: "center", fontSize: 12 }}><Link href="/contact">Contact</Link><Link href="/cos" style={{ borderBottom: "1px solid #25231f", paddingBottom: 3 }}>Coș <CartIndicator /></Link></div>
